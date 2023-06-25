@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {}
+
+.header_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 51px 245px 0 245px;
+}
+
+.nav {
+    margin-right: 176px;
+}
+
+.nav_item {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+    margin-right: 45px;
+}
+
+.logo {}
+
+.header_contacts {
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.left_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 245px;
+
+}
+
+h1 {
+    margin-top: 186px;
+}
+
+h5 {
+    text-align: right;
+}
+
+.main_button {
+    background: #6E9C9F;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 14px;
+}
